@@ -1237,6 +1237,7 @@ footer > #contacts-footer > .submit-brief:hover {
         visibility: visible;
         opacity: 1;
         top: calc(100% + 0px);
+        height:200vw;
     }
     
     header > .nav-container > input[type="checkbox"]:checked ~ .menu-items {
