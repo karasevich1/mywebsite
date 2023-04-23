@@ -32,7 +32,7 @@ header > .container > input{
 
 header::after{
     content: '';
-    background: url(../img/istockphoto-1369748264-612x612-transformed.jpeg);
+    background: url(./img/istockphoto-1369748264-612x612-transformed.jpeg);
     position: absolute;
     background-size: cover;
     top: 0;
