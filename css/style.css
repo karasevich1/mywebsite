@@ -1009,9 +1009,6 @@ footer > #contacts-footer > .submit-brief:hover {
         height: 10vw;
     }
     
-    .program-languages > img:hover{
-
-    }
     /* <-- Responsive program-languages end--> */
     /* ------------------------------ */
     /*     ---------------------      */
@@ -1088,6 +1085,11 @@ footer > #contacts-footer > .submit-brief:hover {
         bottom: 8vw;
         left: 2vw;
         width: 22vw;
+    }
+    
+    #services > .section-content > .section-item > div > img{
+        width: 25vw;
+        height: 25vw;
     }
 
     /* <-- Responsive #services end--> */
