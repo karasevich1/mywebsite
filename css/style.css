@@ -32,7 +32,7 @@ header > .container > input{
 
 header::after{
     content: '';
-    background: url(./img/istockphoto-1369748264-612x612-transformed.jpeg);
+    background: url(/img/istockphoto-1369748264-612x612-transformed.jpeg);
     position: absolute;
     background-size: cover;
     top: 0;
@@ -1121,9 +1121,18 @@ footer > #contacts-footer > .submit-brief:hover {
         column-gap: 20px;
     }
 
+    header > .container > nav > ul > li > a{
+        text-decoration: none;
+        color: #0e2431;
+        font-weight: 500;
+        font-size: 2rem;
+        padding: 0.7rem;
+      }
+    
+
     header > .container > nav > .header-socials > a > img{
-       width: 30px;
-       height: 30px;
+       width: 8vw;
+       height: 8vw;
     }
     
     .container {
@@ -1250,7 +1259,7 @@ footer > #contacts-footer > .submit-brief:hover {
     /* ------------------------------ */
     /*     ---------------------      */
     /* ------------------------------ */
-    /* Reasponsive header start */
+    /* Responsive header start */
 
     header > .home > img{
         width: 40vw;
@@ -1302,8 +1311,9 @@ footer > #contacts-footer > .submit-brief:hover {
     
     .form-container {
         width: 60vw;
-        height: 102vw;
-        row-gap: 10px;
+        height: fit-content;
+        row-gap: 4.5vw;
+        justify-content: center;
         
     }
     
@@ -1314,7 +1324,6 @@ footer > #contacts-footer > .submit-brief:hover {
     .form-container p{
         font-size: 3vw;
         width: fit-content;
-
     }
 
     .form-container .btn {
@@ -1428,6 +1437,7 @@ footer > #contacts-footer > .submit-brief:hover {
         row-gap: 30px;
         height: auto;
         justify-content: center;
+        margin-top: 200px;
     }
 
     #basic > .section-content > h2 {
@@ -1541,8 +1551,8 @@ footer > #contacts-footer > .submit-brief:hover {
     }
     
     footer > #license > .logo > a > img{
-        width: 30vh;
-        height: 30vh;
+        width: 15vw;
+        height: 15vw;
     }
 
     footer > #license > .all-rights-reserved{
