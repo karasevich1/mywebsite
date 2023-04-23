@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Illia Shylin | Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/it-sticker.webp" type="image/x-icon">
+</head>
+<body>
+	<header>
+        <div class="logo">
+            <a href="index.html"><img src="./img/logoshylin.jpg" alt=""></a>
+        </div>
+        <div class="container nav-container">
+            <input id="checkbox" type="checkbox">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div> 
+            <nav class="nav-block">
+                <ul>
+				    <li><a href="#home">Home</a></li>
+				    <li><a href="#basic">About Me</a></li>
+				    <li><a href="#services">Services</a></li>
+				    <li><a href="#contacts">Contacts</a></li>
+			    </ul>
+                <div class="header-socials">
+                    <a class="header-social-image" href="" title="Contact social #0" rel="nofollow"><img src="/img/facebook.svg" alt="Contact social #0" title="Contact social #0" class="contacts-social-image"></a>
+                    <a class="header-social-image" href="" title="Contact social #1" rel="nofollow"><img src="/img/instagram.svg" alt="Contact social #1" title="Contact social #1" class="contacts-social-image"></a>
+                    <a class="header-social-image" href="" title="Contact social #2" rel="nofollow"><img src="/img/telegram.svg" alt="Contact social #2" title="Contact social #2" class="contacts-social-image"></a>
+                    <a class="header-social-image" href="" title="Contact social #4" rel="nofollow"><img src="/img/twitter.svg" alt="Contact social #4" title="Contact social #4" class="contacts-social-image"></a> 
+                </div>
+            </nav>    
+		</div>
+        <div class="home">
+            <img src="./img/it-sticker.webp" alt="">
+            <h1>Welcome to My Website</h1>
+            <p>This is a website where you can learn more about me, my experiences and my work connected with WebDesign.</p>
+            <div class="connection_with_me">
+                <button type="order" href = "#" onclick>Order website</button>
+                <button class="open-button" type="open-button" href = "#" onclick="openForm()">Contact with me</button>
+                <div class="form-popup" id="myForm">
+                    <form action="#" class="form-container">
+                      <h1>Contact with me</h1>
+                      <p>Just leave your request and I will contact with you as soon as possible</p>  
+                      <input type="text" placeholder="Enter your name" name="name" required>
+                      
+                      <input type="email" placeholder="Enter your email" name="email" required oninput fdprocessedid>
+                  
+                      <input type="phone" pattern="^[+ 0-9]+$" title="Only '+' and numbers " placeholder="Enter your phone" name="phone" required>
+                  
+                      <button type="submit" class="btn">Submit</button>
+                      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </form>
+                  </div>
+            </div>
+        </div>
+	</header>
+	<main>
+        <section id="basic">
+			<div data-aos="fade-right" class="section-content function_card aos-init aos-animate" data-aos-duration="1000">
+                <h2>About me</h2>
+                <p>
+                    <br>
+                    Lorem ipsum dolor sit amet
+                    <br>
+                    <br>
+                    Nunc sollicitudin ante elit, eu facilisis sapien imperdiet lobortis. Morbi consectetur, dui at semper sollicitudin, metus tellus volutpat dolor, ut euismod nisi ex non lectus.
+                    <br>
+                    <br>
+                    Duis semper diam in nisi cursus, eget ultricies neque tristique. Donec turpis leo, condimentum ut tellus sit amet, placerat tempus ex.
+                    <br>
+                    <br>
+                    Sed a justo aliquam, pharetra metus a, dictum mi. Ut rutrum in arcu vitae eleifend.
+                    <br>
+                </p>
+                </div>
+            <img data-aos="fade-left" class="function_card aos-init aos-animate" data-aos-duration="1000" src="./img/me.JPG" alt="me">    
+		</section>
+		
+        <section id="services" data-aos="fade-up" data-aos-duration="1000">
+            <div class="heading">
+                <h2>Services</h2>
+                <p>Here you can find out about the services provided</p>
+            </div>
+            
+            <div class="section-content">
+                <div class="section-item">   
+                    <span>500$</span>
+                    <div>
+                        <h3>Landing page</h3>
+                        <img src="./img/Landing-Page-Examples.png" alt="">
+                    </div>
+                </div>
+                <div class="section-item">   
+                    <span>1800$</span>
+                    <div>
+                        <h3>E-shop</h3>
+                        <img src="./img/04545140.jpg" alt="">
+                    </div>    
+                </div>
+                <div class="section-item">   
+                    <span>700$</span>
+                    <div>
+                        <h3>Buisness-card website</h3>
+                        <img src="./img/vcard-business-card-1-1024x683.webp" alt="">
+                    </div>
+                </div>
+                <div class="section-item">   
+                    <span>1000$</span>
+                    <div>
+                        <h3>Catalog website</h3>
+                        <img src="./img/54d8d20229163d7218b82a195d6aaa68.webp" alt="">
+                    </div>
+                </div>
+                <div class="section-item">   
+                    <span>1300$</span>
+                    <div>
+                        <h3>Corporate website</h3>
+                        <img src="./img/original-06f3f72c61e17329555a992fbf9238e9.webp" alt="">
+                    </div>
+                </div>
+                <div class="section-item">   
+                    <span>Individual Price</span>
+                    <div>
+                        <h3>Individual Development</h3>
+                        <img src="./img/Meeting-Agenda-Templates-and-Examples-You-Need-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+		</section>
+
+        <div class="program-languages" data-aos="fade-right" data-aos-duration="1000">
+            <img src="./img/320_lang1.webp" alt="Language #0" title="Language #0" class="program-language-image">
+            <img src="./img/320_lang2.webp" alt="Language #1" title="Language #1" class="program-language-image">
+            <img src="./img/320_lang3.webp" alt="Language #2" title="Language #2" class="program-language-image">
+            <img src="./img/320_lang4.webp" alt="Language #3" title="Language #3" class="program-language-image">
+            <img src="./img/320_lang5.webp" alt="Language #4" title="Language #4" class="program-language-image">
+            <img src="./img/320_lang6.webp" alt="Language #5" title="Language #5" class="program-language-image">
+        </div>
+		
+        <section id="contacts" data-aos="fade-down" data-aos-duration="1000"> 
+            <div class="section-content">
+                <div class="section-item">
+                    <div class="heading"> 
+                        <h2>Contacts</h2>
+                        <p>You can always write to me on social networks or leave a request on the website.</p>
+                        <p>You can also fill out the brief below to familiarize yourself with your future website in more detail.</p>
+                    </div>
+                    <div class="contacts">
+                        <a class="contacts-social-link" href="#" title="Contact social #0" rel="nofollow"><img src="/img/facebook.svg" alt="Contact social #0" title="Contact social #0" class="contacts-social-image"></a>
+                        <a class="contacts-social-link" href="#" title="Contact social #1" rel="nofollow"><img src="/img/instagram.svg" alt="Contact social #1" title="Contact social #1" class="contacts-social-image"></a>
+                        <a class="contacts-social-link" href="#" title="Contact social #2" rel="nofollow"><img src="/img/telegram.svg" alt="Contact social #2" title="Contact social #2" class="contacts-social-image"></a>
+                        <a class="contacts-social-link" href="#" title="Contact social #3"><img src="/img/twitter.svg" alt="Contact social #3" title="Contact social #3" class="contacts-social-image"></a>
+                        <a class="contacts-social-link" href="#" title="Contact social #4" rel="nofollow"><img src="/img/viber.svg" alt="Contact social #4" title="Contact social #4" class="contacts-social-image"></a> 
+                    </div>
+                    <a class="sumbit-brief" href="" onclick="">Fill in the brief</a>
+                </div>
+            </div>
+		</section>
+	
+    </main>
+	<footer>
+        <section id="license">
+            <div class="logo">
+                <a href="index.html"><img src="./img/logoshylin.jpg" alt=""></a>
+            </div>
+            <div class="all-rights-reserved">
+                <p>Copyright &copy; 2023</p>
+            </div>
+        </section>
+        
+        <section id="services-footer">
+            <h2>Services</h2>
+            <a href="" class="service-link">Landing</a>
+            <a href="" class="service-link">Online store</a>
+            <a href="" class="service-link">Business card website</a>
+            <a href="" class="service-link">Site catalog</a>
+            <a href="" class="service-link">Corporate website</a>
+            <a href="" class="service-link">Personal development</a>
+        </section>
+        
+        <section id="contacts-footer">
+            <div class="footer-socials">
+                <a class="footer-social-image" href="" title="Contact social #0" rel="nofollow"><img src="/img/facebook.svg" alt="Contact social #0" title="Contact social #0" class="contacts-social-image"></a>
+                <a class="footer-social-image" href="" title="Contact social #1" rel="nofollow"><img src="/img/instagram.svg" alt="Contact social #1" title="Contact social #1" class="contacts-social-image"></a>
+                <a class="footer-social-image" href="" title="Contact social #2" rel="nofollow"><img src="/img/telegram.svg" alt="Contact social #2" title="Contact social #2" class="contacts-social-image"></a>
+                <a class="footer-social-image" href="" title="Contact social #4" rel="nofollow"><img src="/img/twitter.svg" alt="Contact social #4" title="Contact social #4" class="contacts-social-image"></a> 
+            </div>
+            <a href="tel:+420720540697" class="footer-phone" title="Phone footer">+420 720-540-697</a>
+            <a href="mailto:loremipsum@gmail.com" class="footer-phone" title="Email footer">loremipsum@gmail.com</a>
+            <a class="submit-brief" href="" onclick="">Leave a request</a>
+        </section>
+	</footer>
+    <a id="arrow-up" href="#" title="To the beginning!"><i class="fa-solid fa-arrow-up"></i></a>
+    <script>
+        function openForm() {
+          var obj = document.getElementById("myForm");
+          obj.setAttribute("style", "visibility: visible; transform: translateY(10%); transition: visibility 0s, opacity 0.5s linear, transform 0.5s ease-in-out;");
+        }
+        
+        function closeForm() {
+            var obj = document.getElementById("myForm").style.display = "none";
+        }
+
+        const toggleNavInput = document.getElementById('checkbox');
+        const navBlock = document.querySelector('.nav-block');
+
+        toggleNavInput.addEventListener('click', function() {
+        navBlock.classList.toggle('visible');
+        });
+
+        var lastScroll = false;
+        window.addEventListener("load", () => {
+            window.addEventListener("scroll", () => {
+                if(window.scrollY > 0) {
+                    if(lastScroll === false) {
+                        document.documentElement.classList.toggle("scrolled");
+                        lastScroll = true;
+                    }
+                } else {
+                    if(lastScroll === true) {
+                        document.documentElement.classList.toggle("scrolled");
+                        lastScroll = false;
+                    }
+                }
+            })
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
